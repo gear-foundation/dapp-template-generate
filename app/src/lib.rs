@@ -1,4 +1,5 @@
 #![no_std]
+
 use sails_rs::prelude::*;
 
 #[derive(Default)]
@@ -9,6 +10,7 @@ impl Program {
     pub fn new() -> Self {
         Self
     }
+
     pub fn hello_world(&self) -> HelloWorld {
         HelloWorld::default()
     }

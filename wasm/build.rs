@@ -1,4 +1,4 @@
-use {{project-name}}_app::Program;
+use {{crate_name}}_app::Program;
 use sails_idl_gen::program;
 use std::{env, path::PathBuf};
 
