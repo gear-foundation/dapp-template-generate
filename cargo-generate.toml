@@ -1,5 +1,0 @@
-[template]
-name = "my-template"
-description = "My custom template for Rust projects"
-authors = ["Medov Timur"]
-version = "0.1.0"

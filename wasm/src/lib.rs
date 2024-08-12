@@ -2,4 +2,4 @@
 include!(concat!(env!("OUT_DIR"), "/wasm_binary.rs"));
 
 #[cfg(target_arch = "wasm32")]
-pub use {{crate_name}}_app::wasm::*;
+pub use app::wasm::*;
